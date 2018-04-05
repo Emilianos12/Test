@@ -1,0 +1,51 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+It is easier to see the differences within the code when you have both versions together in a couple of lines pointing out what is worng or what changed instead 
+of compare both files by following all the code at the same time.
+
+How could having easy access to the entire history of a file make you a more 
+efficient programmer in the long term?
+
+  
+
+You can see and compare all the versions and check the changes you made and also the errors you had in order not to repeat them in the future.
+
+What do you think are the pros and cons of manually choosing when to create a
+ commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+
+
+The pros of manually choosing wheen to create a commit is that you can decide it, for example, if you consider to group it by logical changes. 
+On the other hand the cons I can see is that you maybe forget to create a commit after the changes and you realise of that you maybe commit some changes that 
+are not related to.
+By having versions automatically saved you can go back to them at any time if you have a problem but the changes may be not related between each of them 
+which is not convenient.
+
+Why do you think some version control systems, like Git, allow saving multiple
+ files in one commit, while others, like Google Docs, treat each file separately?
+
+
+
+Because changes in one file may affect the content within other files. That's why git allow saving multiple files, in order to update the change across all the files.
+
+How can you use the commands git log and git diff to view the history of files?
+
+By entering git log command you can see all the commits you have till now and using git diff you can compare what changed between them.
+
+How might using version control make you more confident to make changes that
+ could break something?
+
+
+
+You can develop the program by knowing that you can go back if any problem and recover your code without any bug on it.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+
+
+I want to practice and learn about the commands deeper.
+
+
+
+
