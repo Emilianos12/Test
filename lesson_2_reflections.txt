@@ -2,35 +2,44 @@ What happens when you initialize a repository? Why do you need to do it?
 
 
 
-You are creating a repository without any commit yet. Because you need a place where to work with files
+You are creating a repository without any commit yet. Because you need a place where to work with files.
 
 How is the staging area different from the working directory and the repository?
+ What value do you think it offers?
 
 
-It is an intermediate place where you can pick up the files you want to commit to the repository.
 
-What value do you think it offers?
+It is an intermediate place where you can pick up the files you want to commit to the repository. It is a place where you can decide to commit the changes or not to the repository.
 
-How can you use the staging area to make sure you have one commit per logical
-change?
+How can you use the staging area to make sure you have one commit per logical change?
 
 
+
+You must add just the file you want to commit to the staging area.
 
 What are some situations when branches would be helpful in keeping your history
-organized? 
+ organized? How would branches help?
 
-How would branches help?
+When you want to try a different scenario than usual. For example, you want to try a new piece of code that you don't want to include in the original program so far.
+Branches give you the chance to perform changes without touch any sensitive part of original program.
+
+
 
 How do the diagrams help you visualize the branch structure?
 
+It is more simple to see the branch history to draw a diagram describing each commit and branches.
 
 
-What is the result of merging two branches together? 
+What is the result of merging two branches together? Why do we represent it in
+ the diagram the way we do?
 
-Why do we represent it in
-the diagram the way we do?
+The result of merging two branches is to have a all the functionality of the merged branch into the branch that receive this information by creating a new commit.
+We represent the merging by adding arrows from the two merged branches into the commit containing the merging.
 
 
 
-What are the pros and cons of Git's automatic merging vs. always doing merges
+What are the pros and cons of Git's automatic merging vs. always doing merges 
 manually?
+
+
+It is good to automatically merging when there is a tested branch to be included into the main branch. Otherwise it is better to manual merge branches into the main one.
