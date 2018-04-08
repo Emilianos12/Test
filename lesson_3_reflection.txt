@@ -1,4 +1,42 @@
-When would you want to use a remote repository rather than keeping all your work
-local?
+When would you want to use a remote repository rather than keeping all your work local?
 
 When you want to share its content to other people.
+
+Why might you want to always pull changes manually rather than having Git
+ automatically stay up-to-date with your remote repository?
+
+    
+
+Because you can control what you pull from remote repository since not only you can modify or add content.
+
+Describe the differences between forks, clones, and branches.  When would you 
+use one instead of another?
+
+   
+
+Fork command is used to clone a GitHub repository into GitHub. Clone command clones a remote repository into a local one. 
+Finally, branch is a label that group many commits. You can use fork when you want to clone someone else repository and working on it.
+I would use fork when you want to colaborate with someone else and you want this content shared. On the other hand you want to clone a repository into your local machine
+when you want to perform changes on your local machine using last content from remote repository.
+
+What is the benefit of having a copy of the last known state of the remote 
+stored locally?
+
+ 
+
+The benefit is that you are sure you are working on an updated file.
+
+How would you collaborate without using Git or GitHub?  What would be easier,
+and what would be harder?
+
+ 
+
+You can collaborate by using pull requests. Pull request allows you to suggest a change to the person in charge of update the changes to the main repository.
+
+When would you want to make changes in a separate branch rather than directly in
+master?  What benefits does each approach have?
+
+ 
+
+When you want to developer something different, a different concept of the code you are working on for example, and you want not to include it directly to the main code.
+The benefit of this approach is that this allows your to test different option for a problem without introduce bugs to the main branch. 
